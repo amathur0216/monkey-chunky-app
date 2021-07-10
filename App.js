@@ -8,6 +8,7 @@ import PhonicSoundButton from './components/phonicSoundButton';
 console.log(db["the"].chunks)
 export default class App extends React.Component {
   constructor(){
+    console.log("test");
     super();
     this.state = {
       text: '',
